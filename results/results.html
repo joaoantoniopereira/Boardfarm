@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  body {font-family: Verdana;}
+  table.results {border-spacing: 0;
+                 border-collapse: collapse;
+                 font-size: 10pt;}
+  tr.even {background-color: #f1f1f1;}
+  table tr:hover {background-color: #dedeef;}
+  tr td:nth-child(1) {text-align: right;}
+  tr td:nth-child(2) {text-align: center;}
+  .ok {color: green;}
+  .uok {color: lightgreen;}
+  .fail {color: red;}
+  .efail {color: orange;}
+  .skip {color: gold;}
+  </style>
+  <title>Results</title>
+</head>
+
+<body>
+  <table style="width:640px;border-bottom: thin solid;">
+    <tr>
+      <td style="text-align:left;">
+        <h2 style="margin: 0px;">None</h2>
+        Board: tg789vac
+      </td>
+
+      <td><a href="http://boardfarm.qualcomm.com/">
+          <img style="border:0;width:216px;height:57px;" src="http://boardfarm.qualcomm.com/boardfarm_logo_small.png"></a>
+      </td>
+    </tr>
+  </table>
+
+  <br style="clear:both;" />
+
+  <table class="results">
+    <caption style="text-align: left">Summary</caption>
+    <tr><td class="ok">OK: 1</td></tr>
+  </table>
+
+  <br style="clear:both;" />
+
+  <table class="results">
+    <caption style="text-align: left">Failures</caption>
+    <tr><td>None</td></tr>
+  </table>
+
+  <br style="clear:both;" />
+
+  <table class="results">
+    <caption style="text-align: left">Full Results</caption>
+    <tr>
+      <th>#</th>
+      <th>Result</th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+    <tr class="even"><td>1</td><td class="ok">OK</td><td>TestNmap</td><td>None</td></tr>
+  </table>
+
+  Total test time: 0 minutes.<br>
+  <br>
+  <br>
+  See <a href="NoneconsoleFull">full test output</a> or <a href="Nonerebuild/parameterized">see parameters and retest</a>.<br>
+  <br>
+  Board access:<br>
+  <ul>
+    <li>Name: board01</li>
+    <li>Router console: telnet 192.168.1.254</li>
+    <li>Lan Device: ssh root@172.16.0.121</li>
+    <li>Wan Device: ssh root@unknown</li>
+    <li>WebGUI: use HTTP Proxy "172.16.0.121", Port "8080"</li>
+  </ul>
+  Changes: None
+  <div style="width:640px;border-top: thin solid;font-size: 10pt">
+  Questions? Email <a href="mailto:boardfarm-admins">boardfarm-admins</a>.
+  </div>
+</body>
+</html>

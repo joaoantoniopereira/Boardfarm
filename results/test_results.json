@@ -1,0 +1,14 @@
+{
+    "test_results": [
+        {
+            "grade": "OK", 
+            "long_message": "", 
+            "message": null, 
+            "name": "TestNmap"
+        }
+    ], 
+    "tests_fail": 0, 
+    "tests_pass": 1, 
+    "tests_skip": 0, 
+    "tests_total": 1
+}
