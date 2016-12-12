@@ -1,0 +1,17 @@
+{
+    "board01": {
+        "board_type": "tg789vac",
+        "conn_cmd": "telnet 192.168.1.254",
+        "location": "austin",
+        "lan_device": "172.16.0.121",
+        "lan_username": "pi",
+        "lan_password": "raspberry",
+        "board_username": "Debug",
+        "board_password": "default",
+        "connection_type": "telnet",
+        "devices" : [
+        ]
+    }
+}
+
+
